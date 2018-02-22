@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Fortune Cookie Generator</title>
+  <title>Fortune Cookie Generator</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
 </head>
 <body>
-	<button type="button">Make Your Fortune!</button>
-		<
-	<div id="fortune-cookie-text">
-	<div id="previous-fortunes">
+  <button onclick="generateFortuneCookie()" id="first">Make My Fortune!</button>
+  <button onclick="anotherFortune();" id="second">Another Fortune Please!</button>
+  <div id="all-fortunes">
+    <h3>Previous Fortunes</h3>
+      <li id="previous-fortunes">
+      </li>
+  </div>
 </body>
+<script src="apps.js"></script>
 </html>
