@@ -2,17 +2,18 @@
 <html>
 <head>
   <title>Fortune Cookie Generator</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel = "stylesheet" type = "text/css" href = "aesthetics.css">
   <meta charset="utf-8">
 </head>
 <body>
-  <button onclick="generateFortuneCookie()" id="first">Make My Fortune!</button>
-  <button onclick="anotherFortune();" id="second">Another Fortune Please!</button>
-  <div id="all-fortunes">
-    <h3>Previous Fortunes</h3>
-      <li id="previous-fortunes">
-      </li>
-  </div>
+  <button onclick="generateFortuneCookie()" id="first" >Make My Fortune!</button>
+    <div>
+      <p id = "display-fortune"></p>
+    </div>
+    <div id="all-fortunes">
+      <h3>Previous Fortunes</h3>
+        <li></li>
+    </div>
+<script src="generate.js"></script>
 </body>
-<script src="apps.js"></script>
 </html>
